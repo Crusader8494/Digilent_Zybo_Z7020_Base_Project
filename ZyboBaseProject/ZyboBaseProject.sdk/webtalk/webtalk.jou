@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Sat Dec 18 22:29:08 2021
+# Process ID: 3836
+# Current directory: G:/Xilinx/Projects/Desktop/ZyboBaseProject/ZyboBaseProject.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: G:/Xilinx/Projects/Desktop/ZyboBaseProject/ZyboBaseProject.sdk/webtalk/webtalk.log
+# Journal file: G:/Xilinx/Projects/Desktop/ZyboBaseProject/ZyboBaseProject.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

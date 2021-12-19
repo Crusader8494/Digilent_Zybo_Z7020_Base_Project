@@ -1,0 +1,72 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 3020 -y 310 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 2 -x 3020 -y 340 -defaultsOSRD
+preplace port reset_rtl -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace port Tx_UART -pg 1 -lvl 2 -x 3020 -y 670 -defaultsOSRD
+preplace portBus LED -pg 1 -lvl 2 -x 3020 -y 690 -defaultsOSRD
+preplace inst TOP -pg 1 -lvl 1 -x 180 -y 90 -defaultsOSRD
+preplace inst TOP|PS -pg 1 -lvl 1 -x 310 -y 320 -defaultsOSRD
+preplace inst TOP|PL -pg 1 -lvl 3 -x 1750 -y 440 -defaultsOSRD
+preplace inst TOP|ps7_0_axi_periph -pg 1 -lvl 2 -x 1340 -y 170 -defaultsOSRD
+preplace inst TOP|PS|rst_ps7_0_50M -pg 1 -lvl 2 -x 830 -y 430 -defaultsOSRD
+preplace inst TOP|PS|processing_system7_0 -pg 1 -lvl 1 -x 440 -y 360 -defaultsOSRD
+preplace inst TOP|PL|AXI4_Lite_Slave_0 -pg 1 -lvl 1 -x 1890 -y 650 -defaultsOSRD
+preplace inst TOP|PL|UART -pg 1 -lvl 3 -x 2640 -y 800 -defaultsOSRD
+preplace inst TOP|PL|debugger -pg 1 -lvl 1 -x 1890 -y 450 -defaultsOSRD
+preplace inst TOP|PL|LED -pg 1 -lvl 3 -x 2640 -y 690 -defaultsOSRD
+preplace inst TOP|PL|Local_Bus_Register_B_0 -pg 1 -lvl 2 -x 2300 -y 1290 -defaultsOSRD
+preplace netloc reset_rtl_1 1 0 1 N 480
+preplace netloc TOP_Tx_UART 1 1 1 NJ 670
+preplace netloc TOP_LED 1 1 1 NJ 690
+preplace netloc TOP_DDR 1 1 1 NJ 310
+preplace netloc TOP_FIXED_IO 1 1 1 NJ 340
+preplace netloc TOP|reset_rtl_1 1 0 1 N 480
+preplace netloc TOP|PL_Tx_UART 1 3 1 2880 670n
+preplace netloc TOP|PL_LED 1 3 1 N 690
+preplace netloc TOP|PS_FCLK_CLK0 1 1 2 1180 470 NJ
+preplace netloc TOP|PS_peripheral_aresetn 1 1 2 1160 490 NJ
+preplace netloc TOP|Conn1 1 1 3 N 310 NJ 310 NJ
+preplace netloc TOP|Conn2 1 1 3 1170 340 NJ 340 NJ
+preplace netloc TOP|S_AXI1_1 1 2 1 1490 180n
+preplace netloc TOP|s_axi_1 1 2 1 1500 160n
+preplace netloc TOP|S00_AXI_1 1 1 1 1150 90n
+preplace netloc TOP|PS|slowest_sync_clk_1 1 0 3 240 470 640 570 NJ
+preplace netloc TOP|PS|reset_rtl_1 1 0 2 NJ 480 650J
+preplace netloc TOP|PS|rst_ps7_0_50M_peripheral_aresetn 1 2 1 N 470
+preplace netloc TOP|PS|processing_system7_0_FCLK_RESET0_N 1 1 1 N 410
+preplace netloc TOP|PS|Conn2 1 1 2 640J 320 1000J
+preplace netloc TOP|PS|Conn1 1 1 2 N 310 NJ
+preplace netloc TOP|PS|Conn3 1 1 2 NJ 330 NJ
+preplace netloc TOP|PL|s_axi_aclk_1 1 0 3 1670 540 2100 760 2520J
+preplace netloc TOP|PL|s_axi_aresentn_1 1 0 3 1680 800 2110 800 NJ
+preplace netloc TOP|PL|AXI4_Lite_Slave_0_lbus_out_data 1 1 1 2090 630n
+preplace netloc TOP|PL|AXI4_Lite_Slave_0_lbus_out_strobe 1 1 1 2070 670n
+preplace netloc TOP|PL|AXI4_Lite_Slave_0_lbus_out_address 1 1 1 2080 650n
+preplace netloc TOP|PL|Local_Bus_Register_B_0_lbus_out_data 1 0 3 1690 780 NJ 780 2490
+preplace netloc TOP|PL|Local_Bus_Register_B_0_lbus_out_op_success 1 0 3 1700 790 NJ 790 2480
+preplace netloc TOP|PL|Local_Bus_Register_B_0_lbus_out_addr_OOR 1 0 3 1710 770 NJ 770 2500
+preplace netloc TOP|PL|Local_Bus_Register_B_0_RW_reg_1 1 2 1 2510 690n
+preplace netloc TOP|PL|xlslice_0_Dout 1 3 1 N 690
+preplace netloc TOP|PL|Local_Bus_Register_B_0_RW_reg_16 1 2 1 2520 820n
+preplace netloc TOP|PL|UART_Tx_UART 1 3 1 N 790
+preplace netloc TOP|PL|UART_dout 1 1 3 2120 870 NJ 870 2760
+preplace netloc TOP|PL|Conn1 1 0 1 1660 430n
+levelinfo -pg 1 0 180 3020
+levelinfo -hier TOP * 310 1340 1750 *
+levelinfo -hier TOP|PS * 440 830 *
+levelinfo -hier TOP|PL * 1890 2300 2640 *
+pagesize -pg 1 -db -bbox -sgen -100 0 3140 1750
+pagesize -hier TOP -db -bbox -sgen 100 30 2910 1730
+pagesize -hier TOP|PS -db -bbox -sgen 210 250 1030 580
+pagesize -hier TOP|PL -db -bbox -sgen 1630 370 2790 1710
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_board_cnt":"4",
+   "da_clkrst_cnt":"6",
+   "da_ps7_cnt":"1"
+}

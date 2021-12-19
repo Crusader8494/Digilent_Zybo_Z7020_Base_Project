@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 18 22:21:49 2021
+# Process ID: 13868
+# Current directory: G:/Xilinx/Projects/Desktop/ZyboBaseProject/ZyboBaseProject.runs/synth_1
+# Command line: vivado.exe -log Zynq_Design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Zynq_Design_wrapper.tcl
+# Log file: G:/Xilinx/Projects/Desktop/ZyboBaseProject/ZyboBaseProject.runs/synth_1/Zynq_Design_wrapper.vds
+# Journal file: G:/Xilinx/Projects/Desktop/ZyboBaseProject/ZyboBaseProject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Zynq_Design_wrapper.tcl -notrace

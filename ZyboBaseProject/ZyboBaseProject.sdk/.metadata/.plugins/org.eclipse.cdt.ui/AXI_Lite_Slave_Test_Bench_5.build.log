@@ -1,0 +1,48 @@
+22:28:24 **** Incremental Build of configuration Debug for project AXI_Lite_Slave_Test_Bench_5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/DFTlib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/DFTlib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/DFTlib.d" -MT"src/DFTlib.o" -o "src/DFTlib.o" "../src/DFTlib.c"
+'Finished building: ../src/DFTlib.c'
+' '
+'Building file: ../src/Main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
+'Finished building: ../src/Main.c'
+' '
+'Building file: ../src/Microphone.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Microphone.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/Microphone.d" -MT"src/Microphone.o" -o "src/Microphone.o" "../src/Microphone.c"
+'Finished building: ../src/Microphone.c'
+' '
+'Building file: ../src/RWUART.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RWUART.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/RWUART.d" -MT"src/RWUART.o" -o "src/RWUART.o" "../src/RWUART.c"
+'Finished building: ../src/RWUART.c'
+' '
+'Building file: ../src/SSD_Driver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SSD_Driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/SSD_Driver.d" -MT"src/SSD_Driver.o" -o "src/SSD_Driver.o" "../src/SSD_Driver.c"
+'Finished building: ../src/SSD_Driver.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AXI_Lite_Slave_Test_Bench_5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "AXI_Lite_Slave_Test_Bench_5.elf"  ./src/DFTlib.o ./src/Main.o ./src/Microphone.o ./src/RWUART.o ./src/SSD_Driver.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group
+'Finished building target: AXI_Lite_Slave_Test_Bench_5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_Lite_Slave_Test_Bench_5.elf  |tee "AXI_Lite_Slave_Test_Bench_5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67184	   2584	  23328	  93096	  16ba8	AXI_Lite_Slave_Test_Bench_5.elf
+'Finished building: AXI_Lite_Slave_Test_Bench_5.elf.size'
+' '
+
+22:28:26 Build Finished (took 1s.665ms)
+

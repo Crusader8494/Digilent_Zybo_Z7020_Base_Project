@@ -1,0 +1,16 @@
+21:05:36 **** Incremental Build of configuration Debug for project AXI_Slave_Test_Bench ****
+make all 
+'Building target: AXI_Slave_Test_Bench.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -Xlinker --gc-sections -Wl,-Map,"AXI_Slave_Test_Bench.map" --specs=rdimon.specs -Wl,--start-group -lgcc -lc -lc -lm -lrdimon -Wl,--end-group -o "AXI_Slave_Test_Bench.elf"  ./src/main.o   
+e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/lib/thumb/nofp\libstdc++.a(locale.o): in function `std::locale::_Impl::_M_install_cache(std::locale::facet const*, unsigned int)':
+locale.cc:(.text._ZNSt6locale5_Impl16_M_install_cacheEPKNS_5facetEj+0x12): undefined reference to `__sync_synchronize'
+e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/lib/thumb/nofp\libstdc++.a(locale_init.o): in function `(anonymous namespace)::get_locale_mutex()':
+locale_init.cc:(.text._ZN12_GLOBAL__N_116get_locale_mutexEv+0x6): undefined reference to `__sync_synchronize'
+e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: e:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/lib/thumb/nofp\libstdc++.a(cxx11-ios_failure.o): in function `(anonymous namespace)::__io_category_instance()':
+cxx11-ios_failure.cc:(.text._ZN12_GLOBAL__N_122__io_category_instanceEv+0x6): undefined reference to `__sync_synchronize'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:59: AXI_Slave_Test_Bench.elf] Error 1
+
+21:05:36 Build Finished (took 416ms)
+

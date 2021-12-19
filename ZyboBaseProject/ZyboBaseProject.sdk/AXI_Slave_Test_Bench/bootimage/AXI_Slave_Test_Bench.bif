@@ -1,0 +1,5 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	G:\Xilinx\Projects\Desktop\AXI_4_Lite_Slave\AXI_4_Lite_Slave.sdk\Zynq_Design_wrapper_hw_platform_0\Zynq_Design_wrapper.bit
+}

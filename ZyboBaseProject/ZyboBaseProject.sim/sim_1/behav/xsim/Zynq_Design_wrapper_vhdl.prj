@@ -1,0 +1,36 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/AXI4_Lite_Slave.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/Local_Bus_Register_Block.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/AXI_UART_Control_Adapter.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/SSD_Controller.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/Microphone_Driver.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/Microphone_Controller_Timer.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/new/FIFO_Interface.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_rst_ps7_0_50M_0/sim/Zynq_Design_rst_ps7_0_50M_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_AXI4_Lite_Slave_0_0/sim/Zynq_Design_AXI4_Lite_Slave_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_Local_Bus_Register_B_0_0/sim/Zynq_Design_Local_Bus_Register_B_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_UART_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_Debouncer_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_Reset_Controller_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_UART_Debug_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/src/UART.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/src/Debouncer.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/src/Reset_Controller.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/src/UART_Debug.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ipshared/b5b5/src/TOP_BD_wrapper.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_UART_V1_9_0_0/sim/Zynq_Design_UART_V1_9_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_AXI_UART_Control_Ada_0_0/sim/Zynq_Design_AXI_UART_Control_Ada_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_system_ila_0_0/bd_0/sim/bd_8632.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_system_ila_0_0/bd_0/ip/ip_0/sim/bd_8632_ila_lib_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_system_ila_0_0/sim/Zynq_Design_system_ila_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_SSD_Controller_0_0/sim/Zynq_Design_SSD_Controller_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_Microphone_Driver_0_0/sim/Zynq_Design_Microphone_Driver_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_Microphone_Controlle_0_0/sim/Zynq_Design_Microphone_Controlle_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/ip/Zynq_Design_FIFO_Interface_0_0/sim/Zynq_Design_FIFO_Interface_0_0.vhd" \
+"../../../../AXI_4_Lite_Slave.ip_user_files/bd/Zynq_Design/sim/Zynq_Design.vhd" \
+"../../../../AXI_4_Lite_Slave.srcs/sources_1/bd/Zynq_Design/hdl/Zynq_Design_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

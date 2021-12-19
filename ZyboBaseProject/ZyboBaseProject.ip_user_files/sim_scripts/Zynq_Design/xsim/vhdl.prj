@@ -1,0 +1,26 @@
+vhdl xil_defaultlib  \
+"../../../bd/Zynq_Design/ip/Zynq_Design_rst_ps7_0_50M_0/sim/Zynq_Design_rst_ps7_0_50M_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_AXI4_Lite_Slave_0_0/sim/Zynq_Design_AXI4_Lite_Slave_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_Local_Bus_Register_B_0_0/sim/Zynq_Design_Local_Bus_Register_B_0_0.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_UART_0_0.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_Debouncer_0_0.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_Reset_Controller_0_0.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD_UART_Debug_0_0.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/src/UART.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/src/Debouncer.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/src/Reset_Controller.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/src/UART_Debug.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/sim/TOP_BD.vhd" \
+"../../../bd/Zynq_Design/ipshared/b5b5/src/TOP_BD_wrapper.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_UART_V1_9_0_0/sim/Zynq_Design_UART_V1_9_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_AXI_UART_Control_Ada_0_0/sim/Zynq_Design_AXI_UART_Control_Ada_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_system_ila_0_0/bd_0/sim/bd_8632.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_system_ila_0_0/bd_0/ip/ip_0/sim/bd_8632_ila_lib_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_system_ila_0_0/sim/Zynq_Design_system_ila_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_SSD_Controller_0_0/sim/Zynq_Design_SSD_Controller_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_Microphone_Driver_0_0/sim/Zynq_Design_Microphone_Driver_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_Microphone_Controlle_0_0/sim/Zynq_Design_Microphone_Controlle_0_0.vhd" \
+"../../../bd/Zynq_Design/ip/Zynq_Design_FIFO_Interface_0_0/sim/Zynq_Design_FIFO_Interface_0_0.vhd" \
+"../../../bd/Zynq_Design/sim/Zynq_Design.vhd" \
+
+nosort
